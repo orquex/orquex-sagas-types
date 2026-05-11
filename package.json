@@ -1,0 +1,31 @@
+{
+  "name": "@orquex/sagas-types",
+  "version": "0.1.0",
+  "description": "Orquex Sagas - Type definitions and domain models for saga-based workflows",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orquex/orquex-sagas-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/orquex/orquex-sagas-types/issues"
+  },
+  "homepage": "https://github.com/orquex/orquex-sagas-types#readme",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.31.0",
+    "typescript": "6.0.3"
+  }
+}
